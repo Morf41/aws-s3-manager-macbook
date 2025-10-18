@@ -4,7 +4,7 @@ pipeline {
   options { timestamps() }
 
   environment {
-    AWS_REGION        = 'us-east-1'          // change if needed
+    AWS_REGION        = 'us-east-2'          // change if needed
     BUCKET_PREFIX     = 'anangafac-s3-bucket'  // make globally unique
     IAM_USER_BASE     = 'anangafac'       // base IAM username
     // Dangerous toggles - keep false in CI for safety
